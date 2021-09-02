@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.logo{
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.logo img{
+ height: 65%;
+
+}
+.search-box{
+    padding: 30px;
+    height: 66%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+.search-movie{
+    background: white;
+    border-radius: 20px;
+      outline: none;
+}
+.header-tabs{
+    height: 80%;
+    width: 19%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 60%;
+}
+.header-tab{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header-tabs a{
+    color: #E50914;
+    /* outline: none; */
+    /* border: none; */
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-decoration: none;
+}

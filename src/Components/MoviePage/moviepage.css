@@ -1,0 +1,37 @@
+.movie-page{
+   height: calc( 100vh - 80px);
+   position: relative;
+  
+
+}
+.movie-page-cover-poster{
+  height: 100%;
+  width: 100%;
+
+   
+}
+.movie-page-cover-poster img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+    
+}
+.movie-page-details{
+    position: absolute;
+    top: 0px;
+    color: white;
+    padding :25px ;
+    height: 100%;
+    width :100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.movie-tralier-video{
+    height: 75%;
+}
+.movie-tralier-video div{
+  height: 100%;
+
+}

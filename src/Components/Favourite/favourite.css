@@ -1,0 +1,36 @@
+.favourite-movie-Page{
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+    gap: 45px;
+}
+.fav-movie-item{
+    min-height: 300px;
+    width: 200px;
+    position: relative;
+    background-color: #2d3436 !important;;
+    transition: transform 0.5;
+}
+.fav-movie-poster{
+    height: 90%;
+}
+.fav-movie-poster img{
+    height: 100%;
+    width: 100%;
+}
+.fav-movie-info{
+    color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    font-size:0.8rem;
+    align-items: center;
+}
+.fav-movie-title{
+
+}
+.fav-movie-rating{
+
+}
